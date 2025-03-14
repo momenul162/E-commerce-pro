@@ -14,7 +14,7 @@ const CustomerWishlist = () => {
     toast.success("The item has been removed from your wishlist");
   };
 
-  const handleAddToCart = (productId: number) => {
+  const handleAddToCart = () => {
     toast.success("The item has been added to your cart");
   };
 
@@ -65,7 +65,7 @@ const CustomerWishlist = () => {
                     )}
                   </div>
                   <button
-                    onClick={() => handleAddToCart(product.id)}
+                    onClick={() => handleAddToCart()}
                     className="w-full mt-4 flex items-center justify-center gap-2 bg-primary text-white py-2 rounded-md text-sm hover:bg-primary/90 transition-colors"
                   >
                     <ShoppingCart size={16} />

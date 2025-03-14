@@ -13,7 +13,7 @@ interface ProductCardProps {
 }
 
 export const ProductCard = ({ id, title, price, image, category }: ProductCardProps) => {
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(false);
   const [isFavorite, setIsFavorite] = useState(false);
   const navigate = useNavigate();
 
@@ -59,8 +59,8 @@ export const ProductCard = ({ id, title, price, image, category }: ProductCardPr
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
+      // onMouseEnter={() => setIsHovered(true)}
+      // onMouseLeave={() => setIsHovered(false)}
     >
       <Link to={`/product/${id}`}>
         <div className="aspect-square overflow-hidden relative">

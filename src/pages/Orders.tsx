@@ -146,9 +146,9 @@ const Orders = () => {
                       <img src={item.image} alt={item.name} className="h-20 w-20 object-cover" />
                       <div className="flex-1">
                         <h3 className="font-medium">{item.name}</h3>
-                        {item.details && (
+                        {/* {item.details && (
                           <p className="text-sm text-muted-foreground">{item.details}</p>
-                        )}
+                        )} */}
                       </div>
                       <div className="text-right">
                         <p className="font-medium">৳ {item.price}</p>
