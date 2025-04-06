@@ -25,7 +25,7 @@ export const ProductList = ({ products }: ProductListProps) => {
   const displayedProducts = products.slice(0, displayCount);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 py-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {displayedProducts.map((product) => (
           <ProductCard key={product.id} {...product} />
@@ -38,7 +38,7 @@ export const ProductList = ({ products }: ProductListProps) => {
       </div>
 
       {hasMoreProducts && (
-        <div className="flex justify-center py-6">
+        <div className="flex justify-center">
           <Button onClick={handleLoadMore} variant="outline" className="px-8">
             Load More
           </Button>

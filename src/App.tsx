@@ -36,6 +36,7 @@ import ShopInventory from "./pages/Shop/Inventory";
 import ShopOrders from "./pages/Shop/Orders";
 import ShopPOS from "./pages/Shop/POS";
 import AdminDashboard from "./pages/Admin/Dashboard";
+import AddProduct from "./pages/Admin/AddProduct";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
       {/* Admin Routes */}
       <Route path="/admin/dashboard" element={<AdminDashboard />} />
       <Route path="/admin/products" element={<AdminProducts />} />
+      <Route path="/admin/products/add" element={<AddProduct />} />
       <Route path="/admin/orders" element={<AdminOrders />} />
       <Route path="/admin/customers" element={<AdminCustomers />} />
 
@@ -65,7 +67,6 @@ function App() {
 
       {/* POINT OF SALES ROUTES */}
       <Route path="/home" element={<HomePage />} />
-      <Route path="/home/point-of-sale" element={<PointOfSales />} />
       <Route path="/attendance-report" element={<AttendanceReport />} />
       <Route path="/barcode-management" element={<BarcodeManagement />} />
       <Route path="/brand-type-setup" element={<BrandTypeSetup />} />

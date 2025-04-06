@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import DashboardLayout from "@/layout/DashboardLayout";
-import { Badge } from "@/src/components/ui/badge";
 import { Table } from "@/src/components/ui/table";
+import { Badge } from "@/src/components/ui/badge";
+import { Button } from "@/src/components/ui/button";
 import { Printer, X, Check, Package } from "lucide-react";
+import DashboardLayout from "@/layout/DashboardLayout";
 
 const AdminOrders = () => {
   // Sample data for demonstration

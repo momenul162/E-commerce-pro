@@ -58,7 +58,7 @@ const ShopDashboard = () => {
     <DashboardLayout role="shop">
       <div className="space-y-6">
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Shop Dashboard</h1>
+          <h1 className="text-2xl font-bold tracking-tight">Welcome back</h1>
           <p className="text-muted-foreground">Welcome back to your shop overview</p>
         </div>
 

@@ -60,7 +60,7 @@ export const Header = () => {
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link to="/admin">
+              <Link to="/admin/dashboard">
                 <LayoutDashboard className="w-5 h-5 text-gray-600" />
               </Link>
             </Button>
